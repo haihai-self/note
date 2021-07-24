@@ -78,7 +78,7 @@ cout << p1.first << p1.second << endl;
 
 ### 通过tie获取pair元素的值
 
-若函数以pair作为返回值, 可以直接通过std::tie进行接收
+若函数以pair作为返回值, 可以直接通过std::tie进行接收, 也可以通过数组进行接收
 
 ```c++
 std::pair<std::string, int> getPreson() {
@@ -89,6 +89,7 @@ int main(int argc, char **argv) {
     std::string name;
     int ages;
     std::tie(name, ages) = getPreson();//直接通过tie进行接收
+  	auto [x, y] = getPerson(); //字节解引用
     std::cout << "name: " << name << ", ages: " << ages << std::endl;
  
     return 0;
