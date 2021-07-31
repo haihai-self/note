@@ -1,6 +1,6 @@
 ### pair的应用
 
-* pair是蒋2个数据组合成一组数据, stl中map就是将key与value组合在一起
+* pair是将2个数据组合成一组数据, stl中map就是将key与value组合在一起
 * 但需要返回两个数据时, 可以选择pair, pair的实现是一个结构体, 两个主要的成员变量为first与second, 可以直接使用
 
 标准库在`#include <utility>`中, 定义如下所示
