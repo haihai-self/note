@@ -23,3 +23,14 @@ git remote rm origin  #删除
 git remote add origin https://xxx.git 关联
 
 git push -u origin yourbranch //推送
+
+### 删除本地以及远程分支
+
+```bash
+#删除本地分支
+git branch -d localBranchName
+
+#删除远程分支
+git push origin --delete remoteBranchName
+```
+
