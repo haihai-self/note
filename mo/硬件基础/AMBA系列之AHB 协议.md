@@ -105,3 +105,6 @@ AHB 仲裁器的定义如下：
 > **HSPLIT**：供支持SPLIT传输使用。
 
 ![img](../picture/21/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pob3V0YW9wb3dlcg==,size_16,color_FFFFFF,t_70-20210927140728520.png)
+
+#### 3.4 AHB Decoder 接口
+
