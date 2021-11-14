@@ -42,3 +42,4 @@ std::priority_queue<std::string, std::deque<std::string>> words {std::begin(wrds
 - empty()：如果队列为空的话，返回true。
 - swap(priority_queue<T>& other)：和参数的元素进行交换，所包含对象的类型必须相同。
 
+48G5sl82p92
